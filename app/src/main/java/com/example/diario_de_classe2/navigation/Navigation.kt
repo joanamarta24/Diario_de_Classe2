@@ -10,7 +10,8 @@ import androidx.navigation.compose.rememberNavController
 import com.example.diario_de_classe.data.Aluno
 import com.example.diario_de_classe.ui.login.LoginScreen
 import com.example.diario_de_classe.ui.register.RegisterScreen
-import com.example.diario_de_classe.ui.students.StudentsListScreen
+import com.example.diario_de_classe.ui.theme.AlunoListScreen
+
 
 sealed class Screen(val route: String) {
     object Login : Screen("login")
@@ -121,7 +122,7 @@ fun AppNavigation(
                     ),
                 )
             }
-            StudentsListScreen(students = alunos)
+            AlunoListScreen(students = alunos)
         }
     }
 }
