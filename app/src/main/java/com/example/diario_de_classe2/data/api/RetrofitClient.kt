@@ -1,4 +1,4 @@
-package com.example.diario_de_classe.data.api
+package com.example.diario_de_classe2.data.api
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

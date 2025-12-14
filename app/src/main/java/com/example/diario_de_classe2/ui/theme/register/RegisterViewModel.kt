@@ -1,15 +1,15 @@
-package com.example.diario_de_classe.ui.register
+package com.example.diario_de_classe2.ui.register
 
 import android.app.Application
 import android.net.Uri
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.diario_de_classe.data.DataSource
-import com.example.diario_de_classe.data.LocalUserRepository
-import com.example.diario_de_classe.data.Aluno
-import com.example.diario_de_classe.data.api.ApiService
-import com.example.diario_de_classe.data.api.RegisterRequest
-import com.example.diario_de_classe.data.api.RetrofitClient
+import com.example.diario_de_classe2.data.DataSource
+import com.example.diario_de_classe2.data.LocalUserRepository
+import com.example.diario_de_classe2.data.Aluno
+import com.example.diario_de_classe2.data.api.ApiService
+import com.example.diario_de_classe2.data.api.RegisterRequest
+import com.example.diario_de_classe2.data.api.RetrofitClient
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

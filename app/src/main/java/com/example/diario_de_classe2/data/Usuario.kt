@@ -1,4 +1,4 @@
-package com.example.diario_de_classe.data
+package com.example.diario_de_classe2.data
 
 import java.net.URI
 

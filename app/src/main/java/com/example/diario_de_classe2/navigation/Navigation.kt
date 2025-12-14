@@ -1,4 +1,4 @@
-package com.example.diario_de_classe.navigation
+package com.example.diario_de_classe2.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -7,10 +7,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.diario_de_classe.data.Aluno
-import com.example.diario_de_classe.ui.login.LoginScreen
-import com.example.diario_de_classe.ui.register.RegisterScreen
-import com.example.diario_de_classe.ui.theme.AlunoListScreen
+import com.example.diario_de_classe2.data.Aluno
+import com.example.diario_de_classe2.ui.login.LoginScreen
+import com.example.diario_de_classe2.ui.register.RegisterScreen
+import com.example.diario_de_classe2.ui.theme.AlunoListScreen
 
 
 sealed class Screen(val route: String) {
@@ -122,7 +122,7 @@ fun AppNavigation(
                     ),
                 )
             }
-            AlunoListScreen(students = alunos)
+            AlunoListScreen(alunos = alunos)
         }
     }
 }

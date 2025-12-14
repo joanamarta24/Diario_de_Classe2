@@ -1,4 +1,4 @@
-package com.example.diario_de_classe.ui.login
+package com.example.diario_de_classe2.ui.login
 
 data class LoginUiState (
     val email: String = "",

@@ -1,4 +1,4 @@
-package com.example.diario_de_classe
+package com.example.diario_de_classe2
 
 import org.junit.Test
 

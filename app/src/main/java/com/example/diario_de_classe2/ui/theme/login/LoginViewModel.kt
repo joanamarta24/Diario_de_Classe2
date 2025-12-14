@@ -1,4 +1,4 @@
-package com.example.diario_de_classe.ui.login
+package com.example.diario_de_classe2.ui.login
 
 import android.app.Application
 import androidx.compose.runtime.getValue
@@ -6,10 +6,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.diario_de_classe.data.LocalUserRepository
-import com.example.diario_de_classe.data.api.ApiService
-import com.example.diario_de_classe.data.api.LoginRequest
-import com.example.diario_de_classe.data.api.RetrofitClient
+import com.example.diario_de_classe2.data.LocalUserRepository
+import com.example.diario_de_classe2.data.api.ApiService
+import com.example.diario_de_classe2.data.api.LoginRequest
+import com.example.diario_de_classe2.data.api.RetrofitClient
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

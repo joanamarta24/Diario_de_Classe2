@@ -1,7 +1,7 @@
-package com.example.diario_de_classe.ui.register
+package com.example.diario_de_classe2.ui.register
 
 import android.net.Uri
-import com.example.diario_de_classe.data.Aluno
+import com.example.diario_de_classe2.data.Aluno
 
 data class RegisterUIState(
     val email: String = "",

@@ -1,4 +1,4 @@
-package com.example.diario_de_classe.data.api
+package com.example.diario_de_classe2.data.api
 
 import retrofit2.Response
 import retrofit2.http.Body

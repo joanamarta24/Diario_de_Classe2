@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.diario_de_classe"
+    namespace = "com.example.diario_de_classe2"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.diario_de_classe"
+        applicationId = "com.example.diario_de_classe2"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

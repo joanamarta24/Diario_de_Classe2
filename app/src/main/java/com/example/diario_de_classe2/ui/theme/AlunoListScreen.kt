@@ -1,4 +1,4 @@
-package com.example.diario_de_classe.ui.theme
+package com.example.diario_de_classe2.ui.theme
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Spring
@@ -49,7 +49,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.example.diario_de_classe.data.Aluno
+import com.example.diario_de_classe2.data.Aluno
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
