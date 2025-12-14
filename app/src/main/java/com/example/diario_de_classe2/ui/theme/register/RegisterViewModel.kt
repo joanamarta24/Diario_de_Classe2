@@ -28,7 +28,7 @@ class RegisterViewModel(application: Application) : AndroidViewModel(application
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true) }
 
-            val usuarios = dataSource.loadStudents()
+            val usuarios = dataSource.loadAluno()
 
             _uiState.update {
                 it.copy(
